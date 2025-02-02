@@ -35,7 +35,7 @@ Se desejar visualizar o site localmente.
 
 **Clone este repositório**  
 ```sh  
-git clone https://github.com/ViniciusCBorges/ieldaraquelpsi.git  
+git clone https://github.com/Vinizx-carv/portfolio-ieldaraquelpsi.git  
 ```
   
 
