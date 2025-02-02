@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Unbounded:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    z-index: 1;
+    width: 100%;
+    background-color: #ffffff;
+
+}
+.logo img {
+    width: 200px;
+    height: 100%;
+}
+
+#nav_bar {
+    padding: 2px 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav_list {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+#nav_list a:hover{
+    border-bottom: 3px solid #6666FF;
+}
+.nav_item a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.nav_item.active a{
+    border-bottom: 3px solid #6666FF;
+}
+
+#mobile_btn {
+    display: none;
+}
+
+#mobile_menu {
+    display: none;
+}
+h1 {
+    text-align: center;
+
+}
+#doubt {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e1dfe8;
+}
+#doubt h1 {
+    padding: 40px;
+    font-weight: 700;
+    font-size: xx-large;
+}
+.duvida {
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 25px;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 100%);
+    width: 70%;
+    border-radius: 30px;
+    color:#4A4A4A;;
+
+
+
+
+}
+.duvida:hover {
+    background-color: #ffffff;
+}
+.resposta {
+    display: none;
+    max-height: 400px;
+    overflow-y: auto;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-left: 3px solid #8b35dc;
+    background-color: #ffffff;
+}
+.ativo .resposta {
+    display: block;
+}
+#doubt button {
+    background-color: #5ab651;
+}
+#doubt button:hover {
+    transform: scale(1.1);
+    background-color: #74C96D; 
+    box-shadow: 0 0 15px 5px rgba(90, 182, 81, 0.5);    
+}
+#button_doubt{
+    padding: 40px;
+}
+
+
+  
+
+@media screen and (max-width: 1040px) {
+    #nav_list {
+        display: none;
+    }
+    .logo img {
+        width: 150px;
+        height: 100%;
+    }
+    
+    #mobile_btn {
+        display: block;
+        border: none;
+        background-color: transparent;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+
+    #mobile_menu.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #mobile_nav_list {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #mobile_nav_list .nav_item {
+        list-style: none;
+        text-align: center;
+        padding: 15px;
+    }
+
+    #mobile_nav_list .nav_item:hover {
+        background-color: #ACB1F6;
+    }
+
+    .duvida {
+        width: 90%;
+        
+    }
+
+   
+      
+}

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./src/styles/Style.css">
+  <link rel="stylesheet" href="./src/styles/area.css">
+  <link rel="stylesheet" href="./src/styles/home.css">
+  <link rel="stylesheet" href="./src/styles/sobre.css">
+  <link rel="stylesheet" href="src/styles/contato.css">
+  <link rel="icon" href="/src/Assents/imgs/favicon.png" type="image/x-icon">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <link rel="stylesheet" href="src/styles/beneficios.css">
+
+  <title>ieldaraquelpsi</title>
+</head>
+
+<body>
+  <header>
+    <nav id="nav_bar">
+      <div class="logo">
+        <img src="src/Assents/imgs/Captura de tela 2025-01-10 200206.png" alt="">
+      </div>
+      <ul id="nav_list">
+        <li class="nav_item active"><a href="#home">Home</a></li>
+        <li class="nav_item"><a href="#area">Área de atuação</a></li>
+        <li class="nav_item"><a href="#about">Sobre mim</a></li>
+        <li class="nav_item"><a href="#benefits">Benefícios</a></li>
+        <li class="nav_item"><a href="#doubt">Dúvida</a></li>
+        <li class="nav_item"><a href="#contact">Contato</a></li>
+      </ul>
+
+
+      <buttonn id="mobile_btn">
+        <i class="fa-solid fa-bars"></i>
+      </buttonn>
+    </nav>
+
+
+    <div id="mobile_menu">
+      <ul id="mobile_nav_list">
+        <li class="nav_item"><a href="#home">Home</a></li>
+        <li class="nav_item"><a href="#area">Área de atuação</a></li>
+        <li class="nav_item"><a href="#about">Sobre mim</a></li>
+        <li class="nav_item"><a href="#benefits">Benefícios</a></li>
+        <li class="nav_item"><a href="#doubt">Dúvida</a></li>
+        <li class="nav_item"><a href="#contact">Contato</a></li>
+      </ul>
+    </div>
+  </header>
+  <main>
+
+
+
+
+      <section id="home">
+        <div class="content">
+          <div class="text">
+            <h1>Bem-vindo ao Seu Espaço de Saúde Mental</h1>
+            <p>Cuidar da mente é tão importante quanto cuidar do corpo, e estou aqui para ajudá-lo nessa jornada.
+              Ofereço serviços de psicologia clínica no conforto da sua casa, com sessões totalmente online, seguras e
+              personalizadas.</p>
+
+            <p>Dê o primeiro passo para uma vida emocionalmente mais saudável. Agende sua sessão inicial e descubra como
+              posso ajudar você a superar desafios e alcançar o equilíbrio que deseja.</p>
+
+            <button class="whatsapp-button" onclick="sendMessage()">Agendar Consulta</button>
+          </div>
+
+          <div class="image">
+            <img src="src/Assents/imgs/img_home.png" alt="Descrição da imagem">
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <section id="area">
+        <div class="title_area">
+          <h1>Áreas de atuação</h1>
+        </div>
+        <div id="areal">
+          <div class="bloco">
+            <div class="forma">
+              <img src="src/Assents/icones/Component 2.png" alt="">
+            </div>
+            <p>Adolescentes, adultos e idosos</p>
+          </div>
+          <div class="bloco">
+            <div class="forma">
+              <img src="src/Assents/icones/psicoterapia.png" alt="">
+            </div>
+            <p>Psicoterapia Individual</p>
+          </div>
+          <div class="bloco">
+            <div class="forma">
+              <img src="src/Assents/icones/icone-estresse.png" alt="">
+            </div>
+            <p>Ansiedade</p>
+          </div>
+          <div class="bloco">
+            <div class="forma">
+              <img src="src/Assents/icones/estresse (1).png" alt="">
+            </div>
+            <p>Alivio de Estresse</p>
+          </div>
+          <div class="bloco">
+            <div class="forma">
+              <img src="src/Assents/icones/relacao.png" alt="">
+            </div>
+            <p>Relacionamento</p>
+          </div>
+          <div class="bloco">
+            <div class="forma">
+              <img src="src/Assents/icones/autoconsciencia.png" alt="">
+            </div>
+            <p>Autoconhecimento</p>
+          </div>
+        </div>
+
+      </section>
+      <div id="butto">
+        <button onclick="sendMessage()">Agendar Consulta</button>
+      </div>
+      
+      
+
+
+      <section id="about">
+        <h1 class="h1_sobre">Sobre mim</h1>
+        <div class="component_about">
+
+          <div class="img_about">
+            <img src="src/Assents/imgs/Component 4 (1).png" alt="">
+          </div>
+
+          <div class="text_about">
+            <h2>Olá, prazer!</h2>
+            <p>
+              Meu nome é <strong>Raquel</strong>, psicóloga clínica <strong>(CRP 21/05522)</strong> com vasta experiência no atendimento
+               a pessoas que buscam acolhimento e transformação em suas vidas.
+              Atualmente, sou pós-graduanda em Sexualidade Humana, ampliando meus conhecimentos para ajudar indivíduos a
+              enfrentarem questões relacionadas à saúde emocional e sexual.
+            </p>
+            <p>
+              Minha abordagem é fundamentada na <strong>Análise do Comportamento</strong>, uma perspectiva que permite
+              compreender e trabalhar com os comportamentos e padrões que influenciam nossas vidas.
+              Acredito no poder da terapia como uma ferramenta para superar desafios, promover o autoconhecimento e
+              alcançar uma vida mais equilibrada e satisfatória.
+            </p>
+            <p>
+              Se você busca um <strong>espaço seguro e acolhedor</strong> para falar sobre suas questões, estou aqui
+              para ajudar. Vamos juntos nessa jornada de autoconhecimento e transformação?
+            </p>
+
+          </div>
+
+        </div>
+        <button class="button_about" onclick="sendMessage()">
+          Agendar
+        </button>
+      </section>
+      <section id="benefits">
+
+        <h1>Benefícios</h1>
+        <div class="p_beneficios">
+          <p>A terapia online tem ganhado popularidade nos últimos anos, oferecendo diversos benefícios tanto para os
+            pacientes quanto para os profissionais de saúde mental. Aqui estão os principais: </p>
+        </div>
+
+        <div class="beneficios-container">
+          <div class="beneficio">
+
+            <p>Praticidade e Conforto</p>
+
+          </div>
+          <div class="beneficio">
+
+            <p>Acessibilidade</p>
+          </div>
+          <div class="beneficio">
+
+            <p>Flexibilidade de Horários</p>
+
+          </div>
+          <div class="beneficio">
+
+            <p>Privacidade e Discrição</p>
+
+          </div>
+          <div class="beneficio">
+
+            <p>Eficiência terapêutica</p>
+
+          </div>
+        </div>
+
+      </section>
+      <section id="doubt">
+        <h1>Dúvidas</h1>
+        <div class="duvida">
+          <h3>Quantas sessões são necessárias?</h3>
+          <div class="resposta">
+            O número de sessões de terapia necessárias varia de pessoa para pessoa e depende de diversos fatores, como a
+            natureza do problema, os objetivos do paciente e a abordagem terapêutica utilizada. Aqui estão algumas
+            considerações: Problemas Específicos, Objetivo do Paciente, abordagem do psicólogo(a) e Progresso
+            Individual.
+          </div>
+        </div>
+        <div class="duvida">
+          <h3>Aceita convênio?</h3>
+          <div class="resposta">
+            Não aceitamos plano de saúde, porém, ofereço recibo para que você solicite o reembolso junto ao plano, o
+            reembolso pode ser feito até 100% do valor, mas isso depende do seu contrato com seu plano e você descobre
+            diretamente com seu convênio.
+          </div>
+        </div>
+        <div class="duvida">
+          <h3>Quanto tempo dura a sessão?</h3>
+          <div class="resposta">
+            São realizadas uma vez por semana, com duração de 50 minutos.
+          </div>
+        </div>
+        <div class="duvida">
+          <h3>Qual valor das sessões?</h3>
+          <div class="resposta">
+            - Segundo o Código de Ética do
+            CFP em seu Artigo 20: “O psicólogo, ao promover publicamente seus serviços:
+            d Não utilizará o preço do serviço como forma de propaganda". Para saber sobre entre em contato no WhatsApp,
+            clique no botão abaixo.
+          </div>
+        </div>
+        <div id="button_doubt">
+          <button onclick="sendMessage()">Dúvidas? Fale comigo</button>
+        </div>
+      </section>
+      <section id="contact">
+        <h1>Contato</h1>
+        <div class="contact-container">
+          <div class="contact-info">
+            <img src="./src/Assents/imgs/img_contact.png" alt="Raquel - Psicóloga Clínica" class="profile-picture">
+            <h2>Raquel</h2>
+            <p class="role">Psicóloga Clínica</p>
+            <p class="crp">CRP 21/05522</p>
+          </div>
+          <div class="contact-details">
+            <p class="intro-text">
+              Estou aqui para ajudar você em sua jornada. Entre em contato para agendar uma consulta ou tirar dúvidas!
+            </p>
+            <div class="contact-links">
+              <p><strong>E-mail:</strong> <a href="mailto:ieldaraquelpsi@outlook.com">ieldaraquelpsi@outlook.com</a></p>
+
+            </div>
+
+            <div class="social-media">
+
+              <p><strong>WhatsApp:</strong>
+                <a href="https://wa.me/5586994948558" target="_blank">
+
+
+                  <img src="https://cdn-icons-png.flaticon.com/128/1384/1384095.png" alt="WhatsApp">
+                  <p>+55 (86) 99494-8558</p>
+                </a>
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+  </main>
+  <script src="src/js/script.js"></script>
+</body>
+
+</html>

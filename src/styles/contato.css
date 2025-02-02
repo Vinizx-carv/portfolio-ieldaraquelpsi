@@ -1,0 +1,101 @@
+#contact {
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+  }
+  
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 40px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .contact-info {
+    text-align: center;
+  }
+  
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .contact-info h2 {
+    font-size: 1.8rem;
+    color: #343a40;
+    margin-bottom: 5px;
+  }
+  
+  .contact-info .role {
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin-bottom: 5px;
+  }
+  
+  .contact-info .crp {
+    font-size: 1rem;
+    color: #6c757d;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  .contact-details .intro-text {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+  
+  .contact-links a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  #contact h1{
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: xx-large;
+  }
+  
+  .contact-links a:hover {
+    text-decoration: underline;
+  }
+
+  .social-media{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+  }
+  
+  .social-media a img {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+  }
+  
+  /* Responsividade */
+  @media (min-width: 768px) {
+    #contact {
+      padding: 60px 40px;
+    }
+  
+    .profile-picture {
+      width: 200px;
+      height: 200px;
+    }
+  
+    .contact-info h2 {
+      font-size: 2rem;
+    }
+  
+    .contact-details .intro-text {
+      font-size: 1.1rem;
+    }
+  }
+  
