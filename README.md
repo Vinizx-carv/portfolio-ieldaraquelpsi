@@ -23,7 +23,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 ## 🐂 Estrutura do Projeto  
 ```
 💁 ieldaraquelpsi
- └─├📁 Assets → (Imagens, ícones)
+ └─├📁 src 
    └─├📁 Assets → (Imagens, ícones)
    └─├📁 js → (Scripts do site) 
    └─├📁 style → (Arquivos de estilos)
